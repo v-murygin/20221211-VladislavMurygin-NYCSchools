@@ -23,7 +23,18 @@
 		21BE99342946AD8700C9FBE9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE99332946AD8700C9FBE9 /* DetailViewController.swift */; };
 		21BE99372946ADAC00C9FBE9 /* DetailViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE99362946ADAC00C9FBE9 /* DetailViewPresenter.swift */; };
 		21BE993A2946AF8C00C9FBE9 /* SchoolAdditionalInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE99392946AF8C00C9FBE9 /* SchoolAdditionalInformationModel.swift */; };
+		21BE99422946CD8E00C9FBE9 /* School_AdidevtechnologiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE99412946CD8E00C9FBE9 /* School_AdidevtechnologiesTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21BE99432946CD8E00C9FBE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B5E63B294699EA00D844C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B5E642294699EA00D844C4;
+			remoteInfo = "School-Adidevtechnologies";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		21B5E643294699EB00D844C4 /* School-Adidevtechnologies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School-Adidevtechnologies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +54,8 @@
 		21BE99332946AD8700C9FBE9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		21BE99362946ADAC00C9FBE9 /* DetailViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewPresenter.swift; sourceTree = "<group>"; };
 		21BE99392946AF8C00C9FBE9 /* SchoolAdditionalInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAdditionalInformationModel.swift; sourceTree = "<group>"; };
+		21BE993F2946CD8E00C9FBE9 /* School-AdidevtechnologiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School-AdidevtechnologiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BE99412946CD8E00C9FBE9 /* School_AdidevtechnologiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_AdidevtechnologiesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21BE993C2946CD8E00C9FBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				21B5E645294699EB00D844C4 /* School-Adidevtechnologies */,
+				21BE99402946CD8E00C9FBE9 /* School-AdidevtechnologiesTests */,
 				21B5E644294699EB00D844C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				21B5E643294699EB00D844C4 /* School-Adidevtechnologies.app */,
+				21BE993F2946CD8E00C9FBE9 /* School-AdidevtechnologiesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,6 +254,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		21BE99402946CD8E00C9FBE9 /* School-AdidevtechnologiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				21BE99412946CD8E00C9FBE9 /* School_AdidevtechnologiesTests.swift */,
+			);
+			path = "School-AdidevtechnologiesTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,6 +285,24 @@
 			productReference = 21B5E643294699EB00D844C4 /* School-Adidevtechnologies.app */;
 			productType = "com.apple.product-type.application";
 		};
+		21BE993E2946CD8E00C9FBE9 /* School-AdidevtechnologiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BE99472946CD8E00C9FBE9 /* Build configuration list for PBXNativeTarget "School-AdidevtechnologiesTests" */;
+			buildPhases = (
+				21BE993B2946CD8E00C9FBE9 /* Sources */,
+				21BE993C2946CD8E00C9FBE9 /* Frameworks */,
+				21BE993D2946CD8E00C9FBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BE99442946CD8E00C9FBE9 /* PBXTargetDependency */,
+			);
+			name = "School-AdidevtechnologiesTests";
+			productName = "School-AdidevtechnologiesTests";
+			productReference = 21BE993F2946CD8E00C9FBE9 /* School-AdidevtechnologiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -267,6 +315,10 @@
 				TargetAttributes = {
 					21B5E642294699EA00D844C4 = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					21BE993E2946CD8E00C9FBE9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 21B5E642294699EA00D844C4;
 					};
 				};
 			};
@@ -287,6 +339,7 @@
 			projectRoot = "";
 			targets = (
 				21B5E642294699EA00D844C4 /* School-Adidevtechnologies */,
+				21BE993E2946CD8E00C9FBE9 /* School-AdidevtechnologiesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +351,13 @@
 			files = (
 				21B5E653294699EB00D844C4 /* LaunchScreen.storyboard in Resources */,
 				21B5E650294699EB00D844C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BE993D2946CD8E00C9FBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +384,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21BE993B2946CD8E00C9FBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BE99422946CD8E00C9FBE9 /* School_AdidevtechnologiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21BE99442946CD8E00C9FBE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B5E642294699EA00D844C4 /* School-Adidevtechnologies */;
+			targetProxy = 21BE99432946CD8E00C9FBE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		21B5E651294699EB00D844C4 /* LaunchScreen.storyboard */ = {
@@ -512,6 +588,42 @@
 			};
 			name = Release;
 		};
+		21BE99452946CD8E00C9FBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73JH2ZGA6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vm.adidevtechnologies.School-AdidevtechnologiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School-Adidevtechnologies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/School-Adidevtechnologies";
+			};
+			name = Debug;
+		};
+		21BE99462946CD8E00C9FBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73JH2ZGA6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vm.adidevtechnologies.School-AdidevtechnologiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School-Adidevtechnologies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/School-Adidevtechnologies";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,6 +641,15 @@
 			buildConfigurations = (
 				21B5E658294699EB00D844C4 /* Debug */,
 				21B5E659294699EB00D844C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BE99472946CD8E00C9FBE9 /* Build configuration list for PBXNativeTarget "School-AdidevtechnologiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BE99452946CD8E00C9FBE9 /* Debug */,
+				21BE99462946CD8E00C9FBE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
